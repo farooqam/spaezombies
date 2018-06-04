@@ -1,0 +1,47 @@
+html {
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+#background_image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+#gun_image {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#reload_image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+#score_image {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
