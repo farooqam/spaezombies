@@ -1,9 +1,9 @@
 'use strict';
 
+var newWidth;
+
 $(window).load(function() {
-    var ratio;
-    var newWidth;
-    
+    var ratio;    
     var div = $(window);
     
     ratio = (div.width() / 1024);

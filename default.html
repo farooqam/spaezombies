@@ -3,12 +3,16 @@
     <link href="css/master.css" rel="stylesheet">
     <script src="js/jquery.js"></script>
     <script src="js/jquery-ui.js"></script>
+    <script src="js/movement.js"></script>        
     <script src="js/utility.js"></script>    
     <script src="js/setup.js"></script>    
     <script src="js/main.js"></script>
     <body>
         <div id="main_content">
-            <img id="background_image" src="images/background_image.jpg"/>
+            <img 
+                id="background_image" 
+                src="images/background_image.jpg"
+                onmousemove="rotateGun(event)"/>
             <img id="gun_image" src="images/gun.png"/>
             <img id="reload_image" src="images/reload.png"/>
             <img id="score_image" src="images/score.png"/>
